@@ -83,8 +83,7 @@
             this.chart.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart.Legends.Add(legend1);
-            this.chart.Location = new System.Drawing.Point(22, 22);
-            this.chart.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chart.Location = new System.Drawing.Point(12, 12);
             this.chart.Name = "chart";
             this.chart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
             series1.BorderWidth = 2;
@@ -122,7 +121,7 @@
             this.chart.Series.Add(series3);
             this.chart.Series.Add(series4);
             this.chart.Series.Add(series5);
-            this.chart.Size = new System.Drawing.Size(1084, 700);
+            this.chart.Size = new System.Drawing.Size(591, 379);
             this.chart.TabIndex = 0;
             this.chart.Text = "Графік";
             // 
@@ -135,66 +134,58 @@
             this.groupBox1.Controls.Add(this.lbl_txtXmax);
             this.groupBox1.Controls.Add(this.txtXmin);
             this.groupBox1.Controls.Add(this.lbl_txtXmin);
-            this.groupBox1.Location = new System.Drawing.Point(1116, 22);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Location = new System.Drawing.Point(609, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.groupBox1.Size = new System.Drawing.Size(248, 192);
+            this.groupBox1.Size = new System.Drawing.Size(135, 104);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Вихідні дані";
             // 
             // txtStep
             // 
-            this.txtStep.Location = new System.Drawing.Point(101, 138);
-            this.txtStep.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtStep.Location = new System.Drawing.Point(55, 75);
             this.txtStep.Name = "txtStep";
-            this.txtStep.Size = new System.Drawing.Size(123, 29);
+            this.txtStep.Size = new System.Drawing.Size(69, 20);
             this.txtStep.TabIndex = 5;
             // 
             // lbl_txtStep
             // 
             this.lbl_txtStep.AutoSize = true;
-            this.lbl_txtStep.Location = new System.Drawing.Point(11, 144);
-            this.lbl_txtStep.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lbl_txtStep.Location = new System.Drawing.Point(6, 78);
             this.lbl_txtStep.Name = "lbl_txtStep";
-            this.lbl_txtStep.Size = new System.Drawing.Size(58, 24);
+            this.lbl_txtStep.Size = new System.Drawing.Size(35, 13);
             this.lbl_txtStep.TabIndex = 4;
             this.lbl_txtStep.Text = "Крок:";
             // 
             // txtXmax
             // 
-            this.txtXmax.Location = new System.Drawing.Point(101, 90);
-            this.txtXmax.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtXmax.Location = new System.Drawing.Point(55, 49);
             this.txtXmax.Name = "txtXmax";
-            this.txtXmax.Size = new System.Drawing.Size(123, 29);
+            this.txtXmax.Size = new System.Drawing.Size(69, 20);
             this.txtXmax.TabIndex = 3;
             // 
             // lbl_txtXmax
             // 
             this.lbl_txtXmax.AutoSize = true;
-            this.lbl_txtXmax.Location = new System.Drawing.Point(11, 96);
-            this.lbl_txtXmax.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lbl_txtXmax.Location = new System.Drawing.Point(6, 52);
             this.lbl_txtXmax.Name = "lbl_txtXmax";
-            this.lbl_txtXmax.Size = new System.Drawing.Size(65, 24);
+            this.lbl_txtXmax.Size = new System.Drawing.Size(36, 13);
             this.lbl_txtXmax.TabIndex = 2;
             this.lbl_txtXmax.Text = "Xmax:";
             // 
             // txtXmin
             // 
-            this.txtXmin.Location = new System.Drawing.Point(101, 42);
-            this.txtXmin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtXmin.Location = new System.Drawing.Point(55, 23);
             this.txtXmin.Name = "txtXmin";
-            this.txtXmin.Size = new System.Drawing.Size(123, 29);
+            this.txtXmin.Size = new System.Drawing.Size(69, 20);
             this.txtXmin.TabIndex = 1;
             // 
             // lbl_txtXmin
             // 
             this.lbl_txtXmin.AutoSize = true;
-            this.lbl_txtXmin.Location = new System.Drawing.Point(11, 48);
-            this.lbl_txtXmin.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lbl_txtXmin.Location = new System.Drawing.Point(6, 26);
             this.lbl_txtXmin.Name = "lbl_txtXmin";
-            this.lbl_txtXmin.Size = new System.Drawing.Size(60, 24);
+            this.lbl_txtXmin.Size = new System.Drawing.Size(33, 13);
             this.lbl_txtXmin.TabIndex = 0;
             this.lbl_txtXmin.Text = "Xmin:";
             // 
@@ -206,11 +197,9 @@
             this.groupBox2.Controls.Add(this.chkFunc2);
             this.groupBox2.Controls.Add(this.chkFunc1);
             this.groupBox2.Controls.Add(this.chkFunc0);
-            this.groupBox2.Location = new System.Drawing.Point(1116, 244);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Location = new System.Drawing.Point(609, 132);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.groupBox2.Size = new System.Drawing.Size(248, 255);
+            this.groupBox2.Size = new System.Drawing.Size(135, 138);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Побудова графіка";
@@ -218,10 +207,9 @@
             // chkFunc4
             // 
             this.chkFunc4.AutoSize = true;
-            this.chkFunc4.Location = new System.Drawing.Point(16, 205);
-            this.chkFunc4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkFunc4.Location = new System.Drawing.Point(9, 111);
             this.chkFunc4.Name = "chkFunc4";
-            this.chkFunc4.Size = new System.Drawing.Size(150, 28);
+            this.chkFunc4.Size = new System.Drawing.Size(95, 17);
             this.chkFunc4.TabIndex = 4;
             this.chkFunc4.Text = "y = x^2 + x + 4";
             this.chkFunc4.UseVisualStyleBackColor = true;
@@ -229,10 +217,9 @@
             // chkFunc3
             // 
             this.chkFunc3.AutoSize = true;
-            this.chkFunc3.Location = new System.Drawing.Point(16, 162);
-            this.chkFunc3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkFunc3.Location = new System.Drawing.Point(9, 88);
             this.chkFunc3.Name = "chkFunc3";
-            this.chkFunc3.Size = new System.Drawing.Size(79, 28);
+            this.chkFunc3.Size = new System.Drawing.Size(54, 17);
             this.chkFunc3.TabIndex = 3;
             this.chkFunc3.Text = "y = √x";
             this.chkFunc3.UseVisualStyleBackColor = true;
@@ -240,10 +227,9 @@
             // chkFunc2
             // 
             this.chkFunc2.AutoSize = true;
-            this.chkFunc2.Location = new System.Drawing.Point(16, 120);
-            this.chkFunc2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkFunc2.Location = new System.Drawing.Point(9, 65);
             this.chkFunc2.Name = "chkFunc2";
-            this.chkFunc2.Size = new System.Drawing.Size(152, 28);
+            this.chkFunc2.Size = new System.Drawing.Size(94, 17);
             this.chkFunc2.TabIndex = 2;
             this.chkFunc2.Text = "y = cos(x) + 2x";
             this.chkFunc2.UseVisualStyleBackColor = true;
@@ -251,10 +237,9 @@
             // chkFunc1
             // 
             this.chkFunc1.AutoSize = true;
-            this.chkFunc1.Location = new System.Drawing.Point(16, 78);
-            this.chkFunc1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkFunc1.Location = new System.Drawing.Point(9, 42);
             this.chkFunc1.Name = "chkFunc1";
-            this.chkFunc1.Size = new System.Drawing.Size(111, 28);
+            this.chkFunc1.Size = new System.Drawing.Size(71, 17);
             this.chkFunc1.TabIndex = 1;
             this.chkFunc1.Text = "y = cos(x)";
             this.chkFunc1.UseVisualStyleBackColor = true;
@@ -262,25 +247,23 @@
             // chkFunc0
             // 
             this.chkFunc0.AutoSize = true;
-            this.chkFunc0.Location = new System.Drawing.Point(16, 35);
-            this.chkFunc0.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkFunc0.Location = new System.Drawing.Point(9, 19);
             this.chkFunc0.Name = "chkFunc0";
-            this.chkFunc0.Size = new System.Drawing.Size(105, 28);
+            this.chkFunc0.Size = new System.Drawing.Size(67, 17);
             this.chkFunc0.TabIndex = 0;
             this.chkFunc0.Text = "y = sin(x)";
             this.chkFunc0.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.cbFunc);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.txtData);
-            this.groupBox3.Location = new System.Drawing.Point(1375, 22);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox3.Location = new System.Drawing.Point(750, 12);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.groupBox3.Size = new System.Drawing.Size(367, 700);
+            this.groupBox3.Size = new System.Drawing.Size(200, 379);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Значення графіка";
@@ -294,38 +277,37 @@
             "y = cos(x) + 2x",
             "y = √x",
             "y = x^2 + x + 4"});
-            this.cbFunc.Location = new System.Drawing.Point(11, 107);
-            this.cbFunc.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cbFunc.Location = new System.Drawing.Point(6, 58);
             this.cbFunc.Name = "cbFunc";
-            this.cbFunc.Size = new System.Drawing.Size(341, 32);
+            this.cbFunc.Size = new System.Drawing.Size(188, 21);
             this.cbFunc.TabIndex = 2;
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(11, 42);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label4.Location = new System.Drawing.Point(6, 23);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(345, 59);
+            this.label4.Size = new System.Drawing.Size(188, 32);
             this.label4.TabIndex = 1;
             this.label4.Text = "Оберіть функцію для виводу\r\nрозрахунку:";
             // 
             // txtData
             // 
-            this.txtData.Location = new System.Drawing.Point(11, 157);
-            this.txtData.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtData.Location = new System.Drawing.Point(6, 85);
             this.txtData.Multiline = true;
             this.txtData.Name = "txtData";
             this.txtData.ReadOnly = true;
-            this.txtData.Size = new System.Drawing.Size(341, 528);
+            this.txtData.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtData.Size = new System.Drawing.Size(188, 288);
             this.txtData.TabIndex = 0;
             // 
             // btnCalc
             // 
-            this.btnCalc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCalc.Location = new System.Drawing.Point(1118, 511);
-            this.btnCalc.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCalc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCalc.Location = new System.Drawing.Point(610, 277);
             this.btnCalc.Name = "btnCalc";
-            this.btnCalc.Size = new System.Drawing.Size(246, 63);
+            this.btnCalc.Size = new System.Drawing.Size(134, 34);
             this.btnCalc.TabIndex = 4;
             this.btnCalc.Text = "Розрахувати";
             this.btnCalc.UseVisualStyleBackColor = true;
@@ -333,11 +315,10 @@
             // 
             // btnClear
             // 
-            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClear.Location = new System.Drawing.Point(1118, 585);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClear.Location = new System.Drawing.Point(610, 317);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(246, 63);
+            this.btnClear.Size = new System.Drawing.Size(134, 34);
             this.btnClear.TabIndex = 5;
             this.btnClear.Text = "Очистити графік";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -345,11 +326,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Location = new System.Drawing.Point(1118, 659);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.Location = new System.Drawing.Point(610, 357);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(246, 63);
+            this.btnExit.Size = new System.Drawing.Size(134, 34);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Вихід";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -357,9 +337,9 @@
             // 
             // frmGraphics
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1762, 738);
+            this.ClientSize = new System.Drawing.Size(961, 400);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCalc);
@@ -367,7 +347,6 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.chart);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "frmGraphics";
             this.Text = "Графіки функцій";
             ((System.ComponentModel.ISupportInitialize)(this.chart)).EndInit();

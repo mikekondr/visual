@@ -64,7 +64,7 @@ namespace task1
                 y[4][i] = Math.Pow(x[i], 2) + x[i] + 4;
 
                 if (cbFunc.SelectedIndex != -1)
-                    txtData.Text += "x[" + i.ToString() + "] = " + x[i].ToString() + ", " +
+                    txtData.Text += "x[" + i.ToString() + "] = " + Math.Round(x[i], 3).ToString() + ",   " +
                         "y[" + i.ToString() + "] = " + Math.Round(y[cbFunc.SelectedIndex][i], 3).ToString() +
                         Environment.NewLine;
             }
