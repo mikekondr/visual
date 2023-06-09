@@ -92,7 +92,8 @@ namespace task3
 
             if (Sum != 100)
             {
-                MessageBox.Show("Некоретно введені дані!\nСума по всім статтям витрат становить \"" + Sum + "\", що не дорівнює 100 (%)");
+                MessageBox.Show("Некоретно введені дані!\nСума по всім статтям витрат становить \"" + Sum + "\", що не дорівнює 100 (%)",
+                    "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
